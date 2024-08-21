@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:   'Be Vietnam Pro';
+}
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.calculadora {
+    width: 300px;
+    margin: 100px auto;
+    background-color: #251d2e;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.781);
+}
+
+.pantalla {
+    margin-bottom: 10px;
+}
+
+.pantalla input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    text-align: right;
+}
+
+.contenedor_botones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 5px;
+}
+.contenedor_botones .boton__span-column{
+    grid-column:span 2;
+}
+.contenedor_botones .boton__span-row{
+    grid-row: span 2;
+    background-color: #be6290;
+}
+.contenedor_botones .boton__span-row:hover{
+    background-color: #c0779b;
+}
+.btn {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #79669c;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.btn:hover {
+    background-color: #a696c2;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+}
+
+
